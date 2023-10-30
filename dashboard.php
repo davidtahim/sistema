@@ -1,3 +1,21 @@
+<?php
+session_start();
+require_once("scripts/config.php");
+
+function logout () {
+	session_unset();
+	session_destroy();
+	header("Location: index.php");
+	exit;
+
+}
+if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
+	header("Location: dashboard.php");
+	exit;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 

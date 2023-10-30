@@ -14,7 +14,7 @@
 					<div class="d-table-cell align-middle">
 
 						<div class="text-center mt-4">
-							<h1 class="h2">Registr-se</h1>
+							<h1 class="h2">Registre-se</h1>
 							<p class="lead">
 								Crie seu usário e senha para acessar o sistema do Petshop.
 							</p>
@@ -37,14 +37,14 @@
 											<input class="form-control form-control-lg" type="password" name="senha" placeholder="Crie suan semha" required autocomplete="off"  />
 										</div>
 										<div class="d-grid gap-2 mt-3">
-											<a href="index.html" class="btn btn-lg btn-primary">Entrar</a>
+											<a href="index.php" class="btn btn-lg btn-primary">Entrar</a>
 										</div>
 									</form>
 								</div>
 							</div>
 						</div>
 						<div class="text-center mb-3">
-							Already have account? <a href="pages-sign-in.html">Log In</a>
+							Already have account? <a href="index.php">Log In</a>
 						</div>
 					</div>
 				</div>
